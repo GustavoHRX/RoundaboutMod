@@ -346,6 +346,7 @@ public class ForgeEvents {
 
         ModItems.COFFEE_GUM = ForgeItems.COFFEE_GUM.get();
         ModItems.CHERRIES = ForgeItems.CHERRIES.get();
+        ModItems.STAND_FRAGMENT = ForgeItems.STAND_FRAGMENT.get();
 
         ModItems.ANUBIS_ITEM = ForgeItems.ANUBIS_ITEM.get();
 

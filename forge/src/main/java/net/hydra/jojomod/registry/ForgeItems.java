@@ -37,6 +37,9 @@ public class ForgeItems {
                             .build())
             )));
 
+    public static final RegistryObject<Item> STAND_FRAGMENT = addToTab(ITEMS.register("stand_fragment",
+            () -> new Item(new Item.Properties())));
+
     public static final RegistryObject<Item> STAND_ARROW = addToTab(ITEMS.register("stand_arrow",
             () -> new StandArrowItem(new Item.Properties().stacksTo(1).durability(5))));
     public static final RegistryObject<Item> STAND_BEETLE_ARROW = addToTab(ITEMS.register("stand_beetle_arrow",
